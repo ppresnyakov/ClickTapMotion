@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ClickTapMotion</string>
+    <string name="base_dp">100dp</string>
+    <string name="base_dp2x">200dp</string>
+    <string name="std_wide">10</string>
+    <string name="std_text">TAB ME!</string>
+    <string name="std_textView">TEXT ME!</string>
+    <string name="TextUp">Input Text here ↑</string>
+    <string name="TextDown">Input Text here ↓</string>
+    <string name="ResultInfoText">Result of programm ↓</string>
+    <string name="min_hight">48dp</string>
+    <string name="HelloText">Input Text here</string>
+    <string name="СhCount">ChСount</string>
+    <string name="TCount">TC</string>
+</resources>

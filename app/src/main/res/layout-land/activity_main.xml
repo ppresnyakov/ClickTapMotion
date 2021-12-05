@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stateConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/std_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/std_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="@string/std_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <EditText
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:ems="@string/std_wide"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:maxHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/Button2"
+        app:layout_constraintTop_toBottomOf="@+id/Button1"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:ems="@string/std_wide"
+        android:minHeight="48dp"
+        android:maxHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/Button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Button1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/TextInfoDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextDown"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/TextView1"
+        app:layout_constraintEnd_toEndOf="@+id/TextView1"
+        app:layout_constraintStart_toStartOf="@+id/TextView1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TextInfoUpper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextUp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/TextView2"
+        app:layout_constraintStart_toStartOf="@+id/TextView2"
+        app:layout_constraintTop_toBottomOf="@+id/TextView2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ResultInfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ResultInfoText"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/Button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TabsCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/ResultInfoText"
+        app:layout_constraintTop_toBottomOf="@+id/ResultInfoText" />
+
+    <TextView
+        android:id="@+id/CharacterCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/ResultInfoText"
+        app:layout_constraintTop_toBottomOf="@+id/ResultInfoText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
